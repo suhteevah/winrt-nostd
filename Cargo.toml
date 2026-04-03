@@ -1,0 +1,16 @@
+[package]
+name = "winrt-nostd"
+version = "0.1.0"
+edition = "2024"
+authors = ["Matt Gates <suhteevah@gmail.com>"]
+license = "MIT OR Apache-2.0"
+description = "no_std WinRT activation and type projections in Rust"
+repository = "https://github.com/suhteevah/winrt-nostd"
+keywords = ["winrt", "uwp", "windows", "activation", "no_std"]
+categories = ["no-std", "os"]
+readme = "README.md"
+
+[dependencies]
+log = { version = "0.4", default-features = false }
+spin = { version = "0.9", default-features = false }
+
